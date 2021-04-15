@@ -1,0 +1,679 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Hidden Desktop Items */
+.desktop-header{
+    display:none;
+}
+/* 1.)Header */
+
+.subscribe{
+    background-color: black;
+    width: 35%;
+    height: 50px;
+    display: flex;
+ 
+    align-items: center;
+}
+/* 2.)Header Icon */
+.subscribe-icon {
+width: 50px;
+text-align: center;
+margin-top: 15px;
+padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: white;
+    
+}
+/* 3.)Header Heading */
+.subcribe-heading{
+    width: 100%;
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+}
+/* 4.)TextContent Button */
+.text-content button{
+   
+    width: 40%;
+    text-align: left;
+margin-top: 5px;
+    background-color: #fff;
+    font-size: small;
+    border-radius: 5px;
+
+   border: 1px outset grey;
+    
+}
+.text-content button i{
+    color: #6800cc;
+    height: 100%;
+    
+  
+}
+.text-content button h2{
+    color: black;
+    margin-left: 30px;
+    font-size: 18px;
+}
+/* 4.)carousel section */
+/* .carousel-section{
+    background: url(./images/tgm-artwork.jpg) no-repeat;
+} */
+.carousel-section{
+    /* background: url(./images/backgroundsvg.svg) no-repeat ;
+    background-attachment: fixed; */
+    width: 100%;
+    /* background-color: rgb(233, 233, 238); */
+    height: 100%;
+    /* background-repeat: no-repeat; */
+    
+}
+.text-content{
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+word-wrap: break-word;
+}
+.text-content >h4{
+color:  #6800cc;
+font-family: 'Crimson Text', serif;
+}
+.text-content> h1{
+    padding-top: 5px;
+    font-family: 'Dela Gothic One';
+}
+.text-content > p{
+    font-family: 'Cormorant Garamond', serif;
+    word-wrap: break-word;
+    line-height: 30px;
+    font-size: medium;
+padding-top: 5px;
+word-spacing: 3px;
+}
+.text-content h3{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.text-content a{
+    text-decoration: none;
+  
+}
+.text-content a h4{
+    
+color: black;
+}
+/* 5.) Carousel Image*/
+.carousel-image{
+    
+    margin: 40px auto;
+  text-align: center;
+    overflow: hidden;
+}
+.carousel-image img{
+    /* position: relative;
+   margin-top: 180px; */
+   /* padding-top: 100px; */
+    width: 90%;
+    height: 450px;
+    z-index: 100;
+}
+
+
+
+/* 6.)Card Section */
+.cards-section{
+  background-color: rgb(233, 233, 238);
+    /* background-attachment: initial; */
+   
+}
+.card-heading{
+    /* padding-top: 25px; */
+  padding-left: 30px;
+   word-spacing: 5px;
+    width: 100%;
+
+}
+.carousel-end{
+  
+   /* position: relative;
+   bottom: 150px */
+    
+}
+.card-heading h1{
+    font-size: 50px;
+}
+.card-heading h4{
+    color: #6800cc;
+    font-size: medium;
+
+    font-family: 'Crimson Text', serif;
+}
+.card-heading h1{
+    font-family: 'Karantina', cursive;
+
+}
+/* Cards */
+.cards{
+    margin: 20px auto;
+    box-shadow: 0px 0px 20px 0px grey;
+    width: 92%;
+    /* border: 1px solid black; */
+ /* height: 550px; */
+    border-radius: 5px 5px 5px 5px;
+    
+}
+.card-content{
+    text-align: left;
+    padding-left:20px;
+    padding-right: 20px;
+    line-height: 55px;
+}
+.card-img img{
+    transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+  height: 300px;
+}
+.card-img img:hover{
+    filter: grayscale(0);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.card-img img{
+    width: 100%;
+    height: 170px;
+}
+.episode-duration{
+font-weight: lighter;
+}
+.card-content span {
+cursor: pointer;
+ font-weight: lighter;
+}
+.card-line{
+    background-color: #8500ff;
+    height: 2px;
+     width: 55px;
+     margin: 0 auto;
+ }
+/*  */
+.bonus-top{
+    background-color: #8500ff;
+    width: 100%;
+    height: 5px;
+    padding-bottom: 5px;
+}
+.cards-bounse{
+    margin: 20px auto;
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 95%;
+ background-color: black;
+    border-radius: 2px 2px 2px 2px;
+}
+.card-episode_number{
+    position: relative;
+    bottom: 175px;
+    background-color: black;
+    width: 105px;
+    text-align: center;
+   
+    height: 40px;
+}
+.card-episode_number h4{
+   color: white;
+
+}
+.bonus-bottom{
+    margin: 20px 10px 10px 20px;
+    line-height: 30px;
+}
+.bonus-bottom h2{
+   color: white;
+
+}
+.bonus-bottom >p{
+    color: grey;
+}
+.bonus-headings{
+    width: 100%;
+}
+.bonus-headings h2{
+    padding-top: 15px;
+text-align: center;
+color: white;
+}
+.bonus-headings p{
+    font-family: 'Dosis', sans-serif;
+    color: gray;
+    text-align: left;
+    padding: 15px;
+}
+.bonus-btn button{
+    width: 90%;
+    margin: 20px;
+ height: 60px;
+ background-color: #8500ff;
+ color: white;
+ font-family: 'Cormorant Garamond', serif;
+ font-size: large;
+ border-radius: 3px 3px 3px 3px;
+}
+.btn-view_episodes{
+    width: 100%;
+    margin-top: 50px;
+    height: 100px;
+}
+.btn-view_episodes button{
+    width: 70%;
+}
+/* 8.)btn-section */
+.btn-section{
+    margin-top: 55px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.btn-section button{width: 70%;
+background-color: #8500ff;
+color: white;
+height: 50px;
+font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/* 9.)form-section */
+.form-section{
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    background: url(./images/last.png) ;
+    text-align: center;
+   padding-bottom: 50px;
+}
+.text-area{
+    line-height: 40px;
+
+}
+
+.text-area h1{
+    color: #fff;
+    font-family: 'Dela Gothic One';
+}
+.text-area h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    color: grey;
+}
+.inputs-section{
+    margin-top: 10px;
+    text-align: center;
+  
+}
+.inputs-section input{
+    width: 80%;
+    height: 50px;
+    border: 5px;
+    font-size: large;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+.inputs-section button{width: 70%;
+    background-color: #8500ff;
+    color: white;
+    height: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    }
+
+    /* 10.)footer-section */
+    .footer-section{
+        background-color: black;
+        width: 100%;
+    }
+    .footer-icons{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-icons i{
+
+        
+        
+        font-size: 20px;
+        padding: 10px 10px;
+        border: 1px solid grey;
+        color: grey;
+        border-radius: 50%;
+     
+    }
+    
+
+   .footer-contents h3{
+       padding-left: 15px;
+       padding-top: 5px;
+        color: gray;
+        font-size: medium;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+    .footer-copy_right h2{
+        padding-top: 15px;
+    color: gray;
+    padding-left: 15px;
+    font-size: medium;
+    }
+
+    .footer-contents a{
+        text-decoration: none;
+        font-size: 55px;
+    }
+    /* Media Query For Desktop */
+    @media only screen and (min-width: 769px) {
+        .desktop-header{
+            display: inherit;
+        }
+        .main-header{
+            display: none;
+        }
+        /* 1.)Styling the Header */
+        .top-header_line{
+background-color: #8500ff;
+width: 100%;
+height: 10px;
+        }
+        .desktop-nav_bar{
+            width: 100%;
+            height: 120px;
+            
+            display: flex;
+            flex-wrap: wrap;
+            /* background-color: grey; */
+            justify-content: center;
+            align-items: center;
+        }
+        .nav-logo_heading{
+            width: 40%;
+           padding-left: 150px;
+        }
+        .nav-list{
+            width: 60%;
+         
+        }
+        .nav-list ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .nav-logo_heading h1{
+            font-family: 'Karantina', cursive;
+            font-size: 45px;
+            color: black;
+        }
+        .nav-logo_heading h3{
+            font-family: 'Lobster', cursive;
+            font-size: 22px;
+            color: grey;
+        }
+        .nav-list ul li{
+            list-style: none;
+
+        }
+        .nav-list ul li a{
+            text-decoration: none;
+            /* border: 1px solid black; */
+            margin-left: 10px;
+            font-family: 'Crimson Text', serif;
+            cursor: pointer;
+            font-size: 20px;
+            color: grey;
+            padding-right: 40px;
+        }
+        .nav-list ul li a:hover{
+            opacity: 0.5;
+        }
+        .nav-list ul li button{
+            margin-left: 10px;
+            width: 160px;
+            border: 1px outset grey;
+            font-family: 'Crimson Text', serif;
+            border-radius: 30px;
+            color: #fff;
+            height: 50px;
+            background-color:#8500ff ;
+        }
+
+
+        /* 2.)styling carousel */
+        .carousel-section{
+            display: grid;
+            grid-template-columns: repeat(2,3fr);
+        }
+
+        .text-content{
+            margin-top: 5px0px;
+            margin-left: 150px;
+           text-align: left;
+           padding-top: 15px;
+           line-height: 45px;
+        }
+        .text-content p {
+            
+            font-size: 25px;
+            line-height: 45px;
+
+        }
+        .text-content h4{
+            font-size: 25px;
+        }
+
+        .text-content button{
+            width: auto;
+            padding-right: 17px;
+            text-align: left;
+        margin-top: 5px;
+            background-color: #fff;
+            font-size: small;
+            border-radius: 5px;
+           border: 1px outset grey;
+           
+           cursor: pointer;
+          
+        }
+        .text-content 
+        button:hover{
+            opacity: 0.7;
+        }
+        .carousel-image img{
+            width: 100%;
+            height: 650px;
+            position: relative;
+          
+           
+        }
+     
+/* Resolve this */
+        .carousel-end{
+width: 100%;
+height: 100%;
+            background: url(./images/backgroundsvg.svg) no-repeat;
+        }
+
+
+
+        /* 3.)cards-section */
+        .card-heading{
+padding-top: 50px;
+padding-left: 150px;
+        }
+        .card{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+        .cards{
+            width: 26%;
+     
+            border: none;
+            margin: 15px auto;
+            border-radius: 5px;
+        }
+        .btn-section{
+            margin-top: auto;
+            
+        }
+        .btn-section button{
+            width: 250px;
+            font-size: large;
+        
+
+        }
+        .card-episode_number{
+            position: relative;
+            bottom: 175px;
+            padding-top: 10px;
+            background-color: black;
+            width: 105px;
+            text-align: center;
+           
+            height: 40px;
+        }
+        .card-episode_number h4{
+           color: white;
+    
+        }
+        .card-line{
+           background-color: #8500ff;
+           height: 2px;
+            width: 55px;
+            margin: 0 auto;
+        }
+.bonus-top {
+    height: 12px;
+}
+
+.bonus-headings> h2{
+    font-size:30px ;
+
+}
+.bonus-headings >p{
+   
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bonus-btn {
+    width: 80%;
+    
+    margin: 0 auto;
+}
+.bonus-btn{
+    height: 260px;
+}
+        /* 4.)Form Section */
+        .form-section{
+            width: 100%;
+            
+            background-color: rgba(0, 0, 0, 0.1);
+            background: url(./images/last.png) ;
+            text-align: center;
+           padding-top: 150px;
+           padding-bottom: 180px;
+        }
+      
+        .text-area h1{
+          line-height: 55px;
+          
+        }
+       
+        .inputs-section input{
+width: 40%;
+height: 70px;
+border-radius: 5px;
+padding-left: 15px;
+        }
+        .inputs-section button{
+            width: 40%;
+            height: 60px;
+            font-size: large;
+        }
+        /* Footer Designing */
+        .footer-section{
+            text-align: center;
+            padding: 60px;
+            line-height: 60px;
+        }
+        .footer-icons{
+            display: inline-block;
+            word-spacing: 20px;
+            padding:25px ;
+            margin-top: 50px;
+        }
+        .icon-span{
+            cursor: pointer;
+        }
+        .icon-span :hover{
+            opacity: 0.7;
+        }
+        .footer-icons i{
+            width: 50px;
+            height: 40px;
+            padding-top: 10px;
+            font-size: large;
+            cursor: pointer;
+        }
+        .footer-contents{
+            display: flex;
+            justify-content: center;
+            padding-right: 10px;
+        }
+        .footer-contents a:hover{
+            opacity: 0.5;
+        }
+        .footer-contents a{
+            text-decoration: none;
+            font-size: 55px;
+        }
+        .footer-copy_right h2{
+            padding-top: 15px;
+        color: gray;
+        padding-left: 15px;
+        font-size: large;
+        }
+        /* Hovers */
+/* Hover Effect on All Buttons */
+        .btn-hover_class:hover{
+            cursor: pointer;
+           box-shadow: 0px 0px 20px 0px grey;
+            transition: transform .2s ease-out; 
+            transform: scale(1.1,1.1);
+
+        }
+        .btn-hover_class:focus{
+            cursor: pointer;
+           outline: none;
+
+        }
+.footer-icons a:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.carousel-image img{
+    width: 90%;
+    height: 450px;
+    z-index: 100;
+}
+/* .cards:hover{
+
+    transition: transform .2s ease-out; 
+    transform: rotateZ(1.5);
+} */
+    }
